@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/pattern-background-desktop.svg"); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.box{
+    width: 380px;
+    height: 560px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+.picture{
+    border-radius: 20px 20px 0px 0px;
+}
+.content{
+    margin: 20px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.boxprices{
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 80px;
+    background:hsl(225, 100%, 98%);
+}
+.musicicon{
+    position: absolute;
+    left: 40%;
+    top: 63%;
+}
+.plantype{
+    position: absolute;
+    left: 45%;
+    top: 63%;
+    font-weight: bold;
+}
+.price{
+    position: absolute;
+    left: 45%;
+    top: 67%;
+}
+.changed{
+    position: absolute;
+    left: 55%;
+    top: 65%;
+}
+.payment {
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+  }

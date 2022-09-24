@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    font-family: Outfit;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.box {
+    width: 260px;
+    height: 450px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.imageNFT{
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+.content{
+    text-align: left;
+    margin: 5px;
+    position: absolute;
+    height: 105px;
+    width: 250px;
+}
+.title{
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+
+}
+.descrip, .days{
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 13px;
+}
+.eth{
+    color:hsl(178, 100%, 50%);
+    font-size: 13px;
+    position: absolute;
+    top: 95%;
+    left: 15px; 
+}
+.imageETH{
+    position: absolute;
+    top: 95%; 
+}
+.imageUser{
+    border: 1px solid white;
+    border-radius: 25px;
+    position: absolute;
+    top: 135%;
+}
+.imageDays{
+    position: absolute;
+    left: 62%;
+    top: 95%;
+}
+.days{
+    position: absolute;
+    left: 70%;
+    top: 94%;
+}
+.linebox{
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 240px;
+    height: 0px;
+    position: absolute;
+    top: 125%;
+}
+.autor{
+    font-size: 13px;
+    color:hsl(215, 51%, 70%);
+    color:white;
+    font-style: normal;
+    text-align: left center;
+    position: absolute;
+    left: 15%;
+    top: 140%;
+
+}
