@@ -72,3 +72,19 @@ img{
     width: 50px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2.75) {
+    .container{
+        flex-direction: column;
+        height: 170vh;
+        padding-bottom: 20px;
+    }
+    .luxurybox{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .suvbox{
+        border-radius: 0px 0px 0px 0px;
+    }
+    .sedanbox{
+        border-radius: 10px 10px 0px 0px;
+    }
+}
