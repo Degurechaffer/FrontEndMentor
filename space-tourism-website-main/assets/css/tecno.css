@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #0B0D17;
+}
+.textbox{
+    position: absolute;
+    width: 470px;
+    height: 303px;
+    left: 325px;
+    top: 383px;
+}
+.textbox h2{
+    position: absolute;
+    height: 19px;
+    left: 0%;
+    width: 200px;
+    right: 68.09%;
+    top: calc(50% - 19px/2 - 142px);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+.textbox h1{
+    position: absolute;
+    height: 64px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 64px/2 - 89.5px);
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.textbox p{
+    position: absolute;
+    height: 192px;
+    left: 0%;
+    right: 5.53%;
+    top: calc(50% - 192px/2 + 55.5px);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+.moon{
+    position: absolute;
+    width: 515px;
+    height: 527px;
+    left: 925px;
+    top: 272px;
+}
+.title{
+    position: absolute;
+    width: 382px;
+    height: 34px;
+    left: 110.5px;
+    top: 212px;
+  
+}
+.title h1{
+    position: absolute;
+    height: 34px;
+    width: 600px;
+    left: 14.14%;
+    right: 1.57%;
+    top: calc(50% - 34px/2);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px; 
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.title span{
+    opacity: 0.25;
+}
+#lateralcircle1
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 165px;
+    top: 383px;
+    border-radius: 200px;
+    border: 2px solid white;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
+#lateralcircle2
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 165px;
+    top: 495px;
+    border-radius: 200px;
+    border: 2px solid white;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    background-color: transparent;
+}
+#lateralcircle3
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 165px;
+    top: 607px;
+    border-radius: 200px;
+    border: 2px solid white;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    background-color: transparent;
+}
